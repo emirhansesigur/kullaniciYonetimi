@@ -40,7 +40,7 @@ Kullanıcı eklemek için de:
 
 ```INSERT INTO usertable (username, fullname, password, role) VALUES ('ibrahim', 'Ibrahim Aksan',crypt('12345', gen_salt('bf')), 'admin')```
 
-şeklindeki komutu CREATE Script içerisinde execute etmelisiniz. emir adlı kullanıcının şifresini unutmayın çünkü onu login için kullanacaksınız.
+şeklindeki komutu CREATE Script içerisinde execute etmelisiniz. ibrahim adlı kullanıcının şifresini unutmayın çünkü onu login için kullanacaksınız.
 
 ### Proje detayları
 Add User ve Delete User'a sadece giriş yapmış kullanıcılar erilebilir. Guard kullanıldı.  Bu canActivate ile sağlandı. 
