@@ -1,0 +1,46 @@
+<!-- <h3 *ngIf="users else noUser ">titlem</h3>
+
+<ng-template #noUser> kullanici yok.</ng-template>
+
+<div class="row">
+    <div *ngFor="let user of users" class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{user.name}}</h5>
+            <a (click)='addToCard(user)' class="btn btn-primary">Kullaniciyi Guncelle </a>
+            
+        </div>
+    </div>
+
+</div> -->
+
+
+<h3 *ngIf="users else noUser ">Kullanıcı Listesi</h3>
+
+<ng-template #noUser> kullanici bulunamadi.</ng-template>
+
+  <!-- <table>
+    <tr>
+      <th>USERNAME</th>
+      <th>FULLNAME</th>
+      <th>ROLE</th>
+    </tr>
+    <tr *ngFor="let user of users">
+      <td>{{user.username}}</td>
+      <td>{{user.fullname}}</td>
+      <td>{{user.role}}</td>
+    </tr>
+  </table> -->
+
+  <table>
+    <tr>
+      <th>USERNAME</th>
+      <th>FULLNAME</th>
+      <th>ROLE</th>
+    </tr>
+    <tr *ngFor="let user of users">
+      <td>{{user.username}}</td>
+      <td>{{user.fullname}}</td>
+      <td>{{user.role}}</td>
+    </tr>
+  </table>

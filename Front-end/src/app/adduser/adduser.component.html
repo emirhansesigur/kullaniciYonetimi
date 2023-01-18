@@ -1,0 +1,15 @@
+<h1>User Save</h1>
+
+<form #userPost="ngForm" (ngSubmit)="add(userPost)">
+    <input type="text" name="fullname" ngModel placeholder="fullname"><br><br>
+    <input type="text" name="username" ngModel placeholder="username"><br><br>
+    <input type="text" name="password" ngModel placeholder="password"><br><br>
+    <select name="role" ngModel>
+        <option value="admin">Admin</option>
+        <option value="user">User</option>
+    </select><br><br>
+    <br>
+    <button type="submit">Add</button>
+
+</form>
+

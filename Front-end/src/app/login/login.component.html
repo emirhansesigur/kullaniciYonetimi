@@ -1,0 +1,21 @@
+<form #userPost="ngForm"  class="form-login" name="name" (ngSubmit)="login(userPost)">
+
+  <div class="text-center mb-4">
+    <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+  </div>
+
+  <div class="form-label-group">
+    <input type="text" id="userName" name="username" ngModel class="form-control" placeholder="Kullanici Adi" required autofocus>
+    <label >Kullanici Adi</label>
+  </div>
+
+  <div class="form-label-group">
+    <input type="password" id="inputPassword" name="password" ngModel class="form-control" placeholder="Password" required>
+    <label >Password</label>
+  </div>
+
+  <div class="checkbox mb-3">
+  </div>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+
+</form>
