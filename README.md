@@ -63,6 +63,10 @@ Add User ve Delete User'a sadece giriş yapmış kullanıcılar erilebilir. Guar
 - Kullanıcı detayı görüntülenme eklenecek
 - Tasarım güzelleştirilecek
 
+### Resimler
+![photo-1](https://raw.githubusercontent.com/emirhansesigur/kullaniciYonetimi/main/readmeimgs/ss1.PNG)
+
+![photo-2](https://raw.githubusercontent.com/emirhansesigur/kullaniciYonetimi/main/readmeimgs/ss2.PNG)
 
 
 
